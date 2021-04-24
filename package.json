@@ -1,0 +1,29 @@
+{
+  "name": "jutsu",
+  "version": "1.0.0",
+  "description": "This program is the package of tools to improve your software development powers",
+  "main": "jutsu.js",
+  "scripts": {
+    "rasengan": "mocha *.spec.js -w",
+    "start": "node jutsu.js --w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ujorgeleite/jutsu.git"
+  },
+  "keywords": [
+    "jutsu",
+    "naruto",
+    "daughter",
+    "practice"
+  ],
+  "author": "Luanna Leite and Jorge Leite",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ujorgeleite/jutsu/issues"
+  },
+  "homepage": "https://github.com/ujorgeleite/jutsu#readme",
+  "dependencies": {
+    "mocha": "^8.3.2"
+  }
+}
